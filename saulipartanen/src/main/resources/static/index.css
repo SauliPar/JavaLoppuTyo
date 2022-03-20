@@ -1,0 +1,75 @@
+body{
+    margin: 20px;
+    background-color : beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.divForm{
+    display: flex;
+}
+.divStudentForm{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.divCourseForm{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+.divSearchForm{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+.divSearchResults{
+    margin: 20px;
+    display: flex;
+}
+.divStudentCourseForm{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+    text-align: center;
+    background-color: lightgray;
+    padding: 10px;
+}
+#ul1{
+    width: 30%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    background-color: lightgray;
+}
+#ul2{
+    width: 30%;
+    margin-left: 10px;
+    float: right;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    list-style-type: none;
+    background-color: lightgray;
+}
+#ul3{
+    width: 30%;
+    margin-left: 10px;
+    float: right;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    list-style-type: none;
+    background-color: lightgray;
+}
+

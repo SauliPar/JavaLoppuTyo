@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students Database</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="code.js" defer></script>
+</head>
+<body>
+    <!-- HTML-formilla otetaan käyttäjän syöttämät arvot, jotka
+    luetaan code.js-javascript-tiedostossa. Niillä arvoilla haetaan
+    tietoa palvelimelta, jota taas luetaan javascriptillä ja näytetään
+    käyttäjälle-->
+    <div class="divForm">
+        <div class="divStudentForm">
+            <form id="myStudentForm">
+                <label>Student:</label><br>
+                <input id="auth" type="text" name="student"><br>
+                <label>Email:</label><br>
+                <input id="email" type="text" name="email"><br>
+                <label>Class:</label><br>
+                <input id="classId" type="text" name="class"><br>
+                <button id="buttonStudent">Add Student</button>
+                <button id="buttonSearchOne">Search All Students</button>
+            </form>
+        </div>
+        <div class="divCourseForm">
+            <form id="myCourseForm">
+                <label>Course Name:</label><br>
+                <input id="course" type="text" name="courseName"><br>
+                <label>Teacher Name:</label><br>
+                <input id="teacher" type="text" name="teacherName"><br>
+                <button id="buttonCourse">Add Course</button>
+                <button id="buttonSearchTwo">Search All Courses</button>
+            </form>
+        </div>
+        <div class="divStudentCourseForm">
+            <form id="myStudentCourseForm">
+                <label>Student ID</label><br>
+                <input id="studentId" type="number"><br>
+                <label>Course Id</label><br>
+                <input id="courseId" type="number"><br>
+                <button id="buttonStudentCourse">Assign Student to a Course</button>
+            </form>
+        </div>
+        <div class="divSearchForm">
+            <label>Search Students by ID:</label><br>
+            <input id="studentSearch" type="number"><br>
+            <button id="buttonSearchStudent">Search Student</button><br>
+            <label>Search Courses by ID:</label><br>
+            <input id="courseSearch" type="number"><br>
+            <button id="buttonSearchCourse">Search Course</button>
+        </div>
+    </div>
+    <!-- Javascriptissä luodut listaelementit sijoitetaan HTML
+    ul-kohtiin. Eli HTML määrittää yhdessä CSS:n kanssa sen, mihin
+    luodut elementit asetetaan.-->
+    <div class="divSearchResults">
+        <div id="ul1"> </div>
+        <div id="ul2"></div>
+        <div id="ul3"></div>
+    </div>
+</body>
+</html>
